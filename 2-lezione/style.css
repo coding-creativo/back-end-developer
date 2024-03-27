@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(6, 5, 84);
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+h1 { 
+    color: rgb(222, 245, 15);
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+ul {
+    color: rgb(209, 147, 147);
+    font-style: italic;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+a:visited,
+a:link {
+    color:rgb(222, 245, 15);
+}
+
+a:hover {
+    color:rgb(209, 147, 147);
+}
+
+.testo-paragrafo {
+    font-size: 28px;
+    color: greenyellow;
+    text-align: center;
+    text-decoration: none;
+}
+
+.paragrafo {
+    font-size: 34px;
+    color:rgb(209, 147, 147);
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.461);
+}
+
+#titolo {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(155, 207, 31);
+    font-size: 86px;
+}
+
+.testo-rosso {
+    color: red;
+}
+
+h2.testo-rosso {
+    text-transform: uppercase;
+}
+
+
+
+/* codifica esadecimale
+ha i seguenti caratteri:
+
+cifre da 0 a 9
+le lettere dalla A alla F
+
+#000000  -- assenza di colore - nero
+#ffffff  -- bianco
+
+un colore esadecimale è rappresentato da 6 cifre
+
+Sistema di colore: RGB
+dove le prime due rappresentano il rosso
+le altre due rappresentano il verde
+le altre due rappresentano il blu
+
+#ff0000 - rosso
+#00ff00 - verde
+#0000ff - blu
+
+
+-----
+
+sistema rgb
+il rosso ha 256 possibili combinazioni ovvero 2^8, da 0 a 255
+il verde ha 256 possibili combinazioni ovvero 2^8, da 0 a 255
+il blue ha 256 possibili combinazioni ovvero 2^8, da 0 a 255
+
+
+
+
+
+
+*/
