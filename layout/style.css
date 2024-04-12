@@ -19,12 +19,33 @@ h2 {
     font-size: 40px;
 }
 
+a {
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #ffc800;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 24px;
+}
+
 .text-right {
     text-align: right;
 }
 
 .text-left {
     text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.sf-grigio {
+    background-color: #f8f9fa;
 }
 
 .container {
@@ -111,21 +132,9 @@ nav a:hover {
     margin: 20px 0 60px 0;
 }
 
-.header-main button {
-    background-color: #ffc800;
-    padding: 20px 40px;
-    border: none;
-    border-radius: 10px;
-    color: white;
-    font-size: 24px;
-}
-
 /* main */
 
 /* services  */
-#services {
-    text-align: center;
-}
 
 .services {
     display: flex;
@@ -169,10 +178,6 @@ nav a:hover {
 
 /* portfolio */
 
-#portfolio {
-    background-color: #f8f9fa;
-    text-align: center;
-}
 
 .box-portfolio {
     width: calc(33.33% - 20px);
@@ -222,14 +227,10 @@ nav a:hover {
 .portfolio-img:hover .layover,
 .portfolio-img:hover span {
     opacity: 1;
+    cursor: pointer;
 }
 
 /* about */
-
-#about {
-    text-align: center;
-}
-
 ul.timeline {
     position: relative;
 }
@@ -298,6 +299,51 @@ ul.timeline {
     color: grey;
 }
 
+/* team */
+.box-team img {
+    width: 50%;
+    border-radius: 50%;
+    border: 10px solid rgb(223, 213, 213);
+}
+
+.social-icons .icon {
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.social-icons .icon i {
+    font-size: 18px;
+    width: 20px;
+
+}
+
+.box-team h4 {
+    padding: 20px;
+    font-weight: normal;
+} 
+
+/* contatti */
+
+#contact {
+    background-color: #2b2a2a;
+    background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+.box-contact {
+    width: 50%;
+}
+
+.form-control {
+    width: 98%;
+    padding: 21px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
 
 
 
